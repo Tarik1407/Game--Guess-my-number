@@ -1,0 +1,102 @@
+// Basic settings
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Variables:
+$black: #222;
+$green: #60b347;
+
+body {
+  font-family: monospace;
+  background-color: $black;
+  color: white;
+}
+
+.guessNumber {
+  .firstStep {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    button {
+      font-family: monospace;
+      padding: 1rem;
+      font-size: 1.2rem;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+  h5 {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 5px white solid;
+    margin-bottom: 20px;
+  }
+  .number {
+    width: 14%;
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    background: white;
+    color: #222;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  .importantPart {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 40px; */
+    align-items: center;
+    height: 50vh;
+    .checkingNumber {
+      display: flex;
+      flex-direction: column;
+      input {
+        padding: 1.6rem;
+        color: $black;
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 2.4rem;
+        width: 50%;
+        padding: 2rem;
+        margin: auto;
+      }
+      .btns {
+        text-align: center;
+        margin-top: 31px;
+        button {
+          color: $black;
+          font-size: 1.4rem;
+          padding: 1rem;
+          width: 31%;
+          border: none;
+          border: 3px solid white;
+          cursor: pointer;
+        }
+      }
+    }
+    .score {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      h4 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      p:nth-child(1) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

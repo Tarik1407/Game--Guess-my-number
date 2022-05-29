@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-color: #222;
+  color: white;
+}
+
+.guessNumber .firstStep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2rem;
+}
+
+.guessNumber .firstStep button {
+  font-family: monospace;
+  padding: 1rem;
+  font-size: 1.2rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.guessNumber h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.guessNumber h1 {
+  text-align: center;
+  font-size: 3rem;
+  border-bottom: 5px white solid;
+  margin-bottom: 20px;
+}
+
+.guessNumber .number {
+  width: 14%;
+  text-align: center;
+  font-size: 3rem;
+  margin: auto;
+  background: white;
+  color: #222;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.guessNumber .importantPart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* margin-top: 40px; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+}
+
+.guessNumber .importantPart .checkingNumber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.guessNumber .importantPart .checkingNumber input {
+  padding: 1.6rem;
+  color: #222;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 2.4rem;
+  width: 50%;
+  padding: 2rem;
+  margin: auto;
+}
+
+.guessNumber .importantPart .checkingNumber .btns {
+  text-align: center;
+  margin-top: 31px;
+}
+
+.guessNumber .importantPart .checkingNumber .btns button {
+  color: #222;
+  font-size: 1.4rem;
+  padding: 1rem;
+  width: 31%;
+  border: none;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.guessNumber .importantPart .score {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.guessNumber .importantPart .score h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.guessNumber .importantPart .score p {
+  font-size: 1.5rem;
+}
+
+.guessNumber .importantPart .score p:nth-child(1) {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
